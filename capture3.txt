@@ -1,3 +1,5 @@
+Edition 2
+
 No.     Time           Source                Destination           Protocol Length Info
    3420 175.646530     192.168.0.18          172.93.178.36         STUN     62     Binding Request
 
