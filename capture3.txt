@@ -1,0 +1,568 @@
+No.     Time           Source                Destination           Protocol Length Info
+   3420 175.646530     192.168.0.18          172.93.178.36         STUN     62     Binding Request
+
+Frame 3420: 62 bytes on wire (496 bits), 62 bytes captured (496 bits) on interface \Device\NPF_{0AC9580C-5BC5-460A-8735-9780ADDE3C58}, id 0
+Ethernet II, Src: Chongqin_07:c0:a1 (5c:ba:ef:07:c0:a1), Dst: HonHaiPr_a2:47:8b (d8:0f:99:a2:47:8b)
+Internet Protocol Version 4, Src: 192.168.0.18, Dst: 172.93.178.36
+User Datagram Protocol, Src Port: 64818, Dst Port: 3478
+    Source Port: 64818
+    Destination Port: 3478
+    Length: 28
+    Checksum: 0xf779 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 105]
+    [Timestamps]
+    UDP payload (20 bytes)
+Session Traversal Utilities for NAT
+    Message Type: 0x0001 (Binding Request)
+        .... ...0 ...0 .... = Message Class: 0x00 Request (0)
+        ..00 000. 000. 0001 = Message Method: 0x0001 Binding (0x001)
+        ..0. .... .... .... = Message Method Assignment: IETF Review (0x0)
+    Message Length: 0
+    Message Cookie: 2112a442
+    Message Transaction ID: 67384762727050726634412f
+
+No.     Time           Source                Destination           Protocol Length Info
+   3427 175.655343     192.168.0.18          172.93.178.36         STUN     142    Binding Request user: lPKn:KLXm
+
+Frame 3427: 142 bytes on wire (1136 bits), 142 bytes captured (1136 bits) on interface \Device\NPF_{0AC9580C-5BC5-460A-8735-9780ADDE3C58}, id 0
+Ethernet II, Src: Chongqin_07:c0:a1 (5c:ba:ef:07:c0:a1), Dst: HonHaiPr_a2:47:8b (d8:0f:99:a2:47:8b)
+Internet Protocol Version 4, Src: 192.168.0.18, Dst: 172.93.178.36
+User Datagram Protocol, Src Port: 64818, Dst Port: 49335
+    Source Port: 64818
+    Destination Port: 49335
+    Length: 108
+    Checksum: 0x78fa [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 112]
+    [Timestamps]
+    UDP payload (100 bytes)
+Session Traversal Utilities for NAT
+    Message Type: 0x0001 (Binding Request)
+        .... ...0 ...0 .... = Message Class: 0x00 Request (0)
+        ..00 000. 000. 0001 = Message Method: 0x0001 Binding (0x001)
+        ..0. .... .... .... = Message Method Assignment: IETF Review (0x0)
+    Message Length: 80
+    Message Cookie: 2112a442
+    Message Transaction ID: 6a707954683367797a526232
+    [STUN Network Version: RFC-5389/8489 (3)]
+    Attributes
+        USERNAME: lPKn:KLXm
+            Attribute Type: USERNAME
+            Attribute Length: 9
+            Username: lPKn:KLXm
+            Padding: 3
+        GOOG-NETWORK-INFO
+            Attribute Type: GOOG-NETWORK-INFO
+            Attribute Length: 4
+            Google Network ID: 1
+            Google Network Cost: Low (10)
+        ICE-CONTROLLING
+            Attribute Type: ICE-CONTROLLING
+            Attribute Length: 8
+            Tie breaker: 7e8214657f1fbf83
+        USE-CANDIDATE
+            Attribute Type: USE-CANDIDATE
+            Attribute Length: 0
+        PRIORITY
+            Attribute Type: PRIORITY
+            Attribute Length: 4
+            Priority: 1853497087
+        MESSAGE-INTEGRITY
+            Attribute Type: MESSAGE-INTEGRITY
+            Attribute Length: 20
+            HMAC-SHA1: 1c3765f1a7e528178755129685b9fe8401157e5a
+        FINGERPRINT
+            Attribute Type: FINGERPRINT
+            Attribute Length: 4
+            CRC-32: 0xd8b6bf3d
+
+No.     Time           Source                Destination           Protocol Length Info
+   3444 175.889100     192.168.0.18          172.93.178.36         STUN     70     Allocate Request UDP
+
+Frame 3444: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{0AC9580C-5BC5-460A-8735-9780ADDE3C58}, id 0
+Ethernet II, Src: Chongqin_07:c0:a1 (5c:ba:ef:07:c0:a1), Dst: HonHaiPr_a2:47:8b (d8:0f:99:a2:47:8b)
+Internet Protocol Version 4, Src: 192.168.0.18, Dst: 172.93.178.36
+User Datagram Protocol, Src Port: 64818, Dst Port: 3478
+    Source Port: 64818
+    Destination Port: 3478
+    Length: 36
+    Checksum: 0xbce1 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 105]
+    [Timestamps]
+    UDP payload (28 bytes)
+Session Traversal Utilities for NAT
+    [Response In: 3455]
+    Message Type: 0x0003 (Allocate Request)
+        .... ...0 ...0 .... = Message Class: 0x00 Request (0)
+        ..00 000. 000. 0011 = Message Method: 0x0003 Allocate (0x003)
+        ..0. .... .... .... = Message Method Assignment: IETF Review (0x0)
+    Message Length: 8
+    Message Cookie: 2112a442
+    Message Transaction ID: 716b54686535586464655a6f
+    [STUN Network Version: RFC-5389/8489 (3)]
+    Attributes
+        REQUESTED-TRANSPORT: UDP
+            Attribute Type: REQUESTED-TRANSPORT
+            Attribute Length: 4
+            Transport: UDP (0x11)
+            Reserved: 000000
+
+No.     Time           Source                Destination           Protocol Length Info
+   3455 175.946266     172.93.178.36         192.168.0.18          STUN     166    Allocate Error Response error-code: 401 (Unauthenticated) Unauthorized with nonce realm: turn-usc1.obs.ninja
+
+Frame 3455: 166 bytes on wire (1328 bits), 166 bytes captured (1328 bits) on interface \Device\NPF_{0AC9580C-5BC5-460A-8735-9780ADDE3C58}, id 0
+Ethernet II, Src: HonHaiPr_a2:47:8b (d8:0f:99:a2:47:8b), Dst: Chongqin_07:c0:a1 (5c:ba:ef:07:c0:a1)
+Internet Protocol Version 4, Src: 172.93.178.36, Dst: 192.168.0.18
+User Datagram Protocol, Src Port: 3478, Dst Port: 64818
+    Source Port: 3478
+    Destination Port: 64818
+    Length: 132
+    Checksum: 0x3b4a [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 105]
+    [Timestamps]
+    UDP payload (124 bytes)
+Session Traversal Utilities for NAT
+    [Request In: 3444]
+    [Time: 0.057166000 seconds]
+    Message Type: 0x0113 (Allocate Error Response)
+        .... ...1 ...1 .... = Message Class: 0x11 Error Response (3)
+        ..00 000. 000. 0011 = Message Method: 0x0003 Allocate (0x003)
+        ..0. .... .... .... = Message Method Assignment: IETF Review (0x0)
+    Message Length: 104
+    Message Cookie: 2112a442
+    Message Transaction ID: 716b54686535586464655a6f
+    [STUN Network Version: RFC-5389/8489 (3)]
+    Attributes
+        ERROR-CODE 401 (Unauthenticated): Unauthorized
+            Attribute Type: ERROR-CODE
+            Attribute Length: 16
+            Reserved: 0000
+            .... .100 = Error Class: 4
+            Error Code: 1
+            Error Reason Phrase: Unauthorized
+        NONCE: 6379b7b94bb3ddc5
+            Attribute Type: NONCE
+            Attribute Length: 16
+            Nonce: 6379b7b94bb3ddc5
+        REALM: turn-usc1.obs.ninja
+            Attribute Type: REALM
+            Attribute Length: 19
+            Realm: turn-usc1.obs.ninja
+            Padding: 1
+        SOFTWARE
+            Attribute Type: SOFTWARE
+            Attribute Length: 26
+            Software: Coturn-4.5.1.1 'dan Eider'
+            Padding: 2
+        FINGERPRINT
+            Attribute Type: FINGERPRINT
+            Attribute Length: 4
+            CRC-32: 0x9f662897
+
+No.     Time           Source                Destination           Protocol Length Info
+   3456 175.948525     192.168.0.18          172.93.178.36         STUN     150    Allocate Request UDP user: obsninja realm: turn-usc1.obs.ninja with nonce
+
+Frame 3456: 150 bytes on wire (1200 bits), 150 bytes captured (1200 bits) on interface \Device\NPF_{0AC9580C-5BC5-460A-8735-9780ADDE3C58}, id 0
+Ethernet II, Src: Chongqin_07:c0:a1 (5c:ba:ef:07:c0:a1), Dst: HonHaiPr_a2:47:8b (d8:0f:99:a2:47:8b)
+Internet Protocol Version 4, Src: 192.168.0.18, Dst: 172.93.178.36
+User Datagram Protocol, Src Port: 64818, Dst Port: 3478
+    Source Port: 64818
+    Destination Port: 3478
+    Length: 116
+    Checksum: 0x42db [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 105]
+    [Timestamps]
+    UDP payload (108 bytes)
+Session Traversal Utilities for NAT
+    [Response In: 3462]
+    Message Type: 0x0003 (Allocate Request)
+        .... ...0 ...0 .... = Message Class: 0x00 Request (0)
+        ..00 000. 000. 0011 = Message Method: 0x0003 Allocate (0x003)
+        ..0. .... .... .... = Message Method Assignment: IETF Review (0x0)
+    Message Length: 88
+    Message Cookie: 2112a442
+    Message Transaction ID: 75346d754d4d7770734b394b
+    [STUN Network Version: RFC-5389/8489 (3)]
+    Attributes
+        REQUESTED-TRANSPORT: UDP
+            Attribute Type: REQUESTED-TRANSPORT
+            Attribute Length: 4
+            Transport: UDP (0x11)
+            Reserved: 000000
+        USERNAME: obsninja
+            Attribute Type: USERNAME
+            Attribute Length: 8
+            Username: obsninja
+        REALM: turn-usc1.obs.ninja
+            Attribute Type: REALM
+            Attribute Length: 19
+            Realm: turn-usc1.obs.ninja
+            Padding: 1
+        NONCE: 6379b7b94bb3ddc5
+            Attribute Type: NONCE
+            Attribute Length: 16
+            Nonce: 6379b7b94bb3ddc5
+        MESSAGE-INTEGRITY
+            Attribute Type: MESSAGE-INTEGRITY
+            Attribute Length: 20
+            HMAC-SHA1: f8b8d02f07233d31a0ce25ea35d434afe5452328
+
+No.     Time           Source                Destination           Protocol Length Info
+   3462 176.031770     172.93.178.36         192.168.0.18          STUN     158    Allocate Success Response XOR-RELAYED-ADDRESS: 172.93.178.36:55532 XOR-MAPPED-ADDRESS: 75.188.96.138:64818 lifetime: 600
+
+Frame 3462: 158 bytes on wire (1264 bits), 158 bytes captured (1264 bits) on interface \Device\NPF_{0AC9580C-5BC5-460A-8735-9780ADDE3C58}, id 0
+Ethernet II, Src: HonHaiPr_a2:47:8b (d8:0f:99:a2:47:8b), Dst: Chongqin_07:c0:a1 (5c:ba:ef:07:c0:a1)
+Internet Protocol Version 4, Src: 172.93.178.36, Dst: 192.168.0.18
+User Datagram Protocol, Src Port: 3478, Dst Port: 64818
+    Source Port: 3478
+    Destination Port: 64818
+    Length: 124
+    Checksum: 0xaaa1 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 105]
+    [Timestamps]
+    UDP payload (116 bytes)
+Session Traversal Utilities for NAT
+    [Request In: 3456]
+    [Time: 0.083245000 seconds]
+    Message Type: 0x0103 (Allocate Success Response)
+        .... ...1 ...0 .... = Message Class: 0x10 Success Response (2)
+        ..00 000. 000. 0011 = Message Method: 0x0003 Allocate (0x003)
+        ..0. .... .... .... = Message Method Assignment: IETF Review (0x0)
+    Message Length: 96
+    Message Cookie: 2112a442
+    Message Transaction ID: 75346d754d4d7770734b394b
+    [STUN Network Version: RFC-5389/8489 (3)]
+    Attributes
+        XOR-RELAYED-ADDRESS: 172.93.178.36:55532
+            Attribute Type: XOR-RELAYED-ADDRESS
+            Attribute Length: 8
+            Reserved: 00
+            Protocol Family: IPv4 (0x01)
+            Port (XOR-d): f9fe
+            [Port: 55532]
+            IP (XOR-d): 8d4f1666
+            [IP: 172.93.178.36]
+        XOR-MAPPED-ADDRESS: 75.188.96.138:64818
+            Attribute Type: XOR-MAPPED-ADDRESS
+            Attribute Length: 8
+            Reserved: 00
+            Protocol Family: IPv4 (0x01)
+            Port (XOR-d): dc20
+            [Port: 64818]
+            IP (XOR-d): 6aaec4c8
+            [IP: 75.188.96.138]
+        LIFETIME 600
+            Attribute Type: LIFETIME
+            Attribute Length: 4
+            Lifetime: 600
+        SOFTWARE
+            Attribute Type: SOFTWARE
+            Attribute Length: 26
+            Software: Coturn-4.5.1.1 'dan Eider'
+            Padding: 2
+        MESSAGE-INTEGRITY
+            Attribute Type: MESSAGE-INTEGRITY
+            Attribute Length: 20
+            HMAC-SHA1: 70448a92c5b18787be9a3dc75f8753d62344919a
+        FINGERPRINT
+            Attribute Type: FINGERPRINT
+            Attribute Length: 4
+            CRC-32: 0x0cc1b8e8
+
+No.     Time           Source                Destination           Protocol Length Info
+   3465 176.032901     192.168.0.18          172.93.178.36         STUN     154    CreatePermission Request XOR-PEER-ADDRESS: 75.188.99.179:49697 user: obsninja realm: turn-usc1.obs.ninja with nonce
+
+Frame 3465: 154 bytes on wire (1232 bits), 154 bytes captured (1232 bits) on interface \Device\NPF_{0AC9580C-5BC5-460A-8735-9780ADDE3C58}, id 0
+Ethernet II, Src: Chongqin_07:c0:a1 (5c:ba:ef:07:c0:a1), Dst: HonHaiPr_a2:47:8b (d8:0f:99:a2:47:8b)
+Internet Protocol Version 4, Src: 192.168.0.18, Dst: 172.93.178.36
+User Datagram Protocol, Src Port: 64818, Dst Port: 3478
+    Source Port: 64818
+    Destination Port: 3478
+    Length: 120
+    Checksum: 0x1ab6 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 105]
+    [Timestamps]
+    UDP payload (112 bytes)
+Session Traversal Utilities for NAT
+    [Response In: 3474]
+    Message Type: 0x0008 (CreatePermission Request)
+        .... ...0 ...0 .... = Message Class: 0x00 Request (0)
+        ..00 000. 000. 1000 = Message Method: 0x0008 CreatePermission (0x008)
+        ..0. .... .... .... = Message Method Assignment: IETF Review (0x0)
+    Message Length: 92
+    Message Cookie: 2112a442
+    Message Transaction ID: 304341416f354a6d2f583976
+    [STUN Network Version: RFC-5389/8489 (3)]
+    Attributes
+        XOR-PEER-ADDRESS: 75.188.99.179:49697
+            Attribute Type: XOR-PEER-ADDRESS
+            Attribute Length: 8
+            Reserved: 00
+            Protocol Family: IPv4 (0x01)
+            Port (XOR-d): e333
+            [Port: 49697]
+            IP (XOR-d): 6aaec7f1
+            [IP: 75.188.99.179]
+        USERNAME: obsninja
+            Attribute Type: USERNAME
+            Attribute Length: 8
+            Username: obsninja
+        REALM: turn-usc1.obs.ninja
+            Attribute Type: REALM
+            Attribute Length: 19
+            Realm: turn-usc1.obs.ninja
+            Padding: 1
+        NONCE: 6379b7b94bb3ddc5
+            Attribute Type: NONCE
+            Attribute Length: 16
+            Nonce: 6379b7b94bb3ddc5
+        MESSAGE-INTEGRITY
+            Attribute Type: MESSAGE-INTEGRITY
+            Attribute Length: 20
+            HMAC-SHA1: bfa561bb02e736b16948cb363d0c2f164cb9e1dd
+
+No.     Time           Source                Destination           Protocol Length Info
+   3474 176.071960     172.93.178.36         192.168.0.18          STUN     126    CreatePermission Success Response
+
+Frame 3474: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits) on interface \Device\NPF_{0AC9580C-5BC5-460A-8735-9780ADDE3C58}, id 0
+Ethernet II, Src: HonHaiPr_a2:47:8b (d8:0f:99:a2:47:8b), Dst: Chongqin_07:c0:a1 (5c:ba:ef:07:c0:a1)
+Internet Protocol Version 4, Src: 172.93.178.36, Dst: 192.168.0.18
+User Datagram Protocol, Src Port: 3478, Dst Port: 64818
+    Source Port: 3478
+    Destination Port: 64818
+    Length: 92
+    Checksum: 0x3015 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 105]
+    [Timestamps]
+    UDP payload (84 bytes)
+Session Traversal Utilities for NAT
+    [Request In: 3465]
+    [Time: 0.039059000 seconds]
+    Message Type: 0x0108 (CreatePermission Success Response)
+        .... ...1 ...0 .... = Message Class: 0x10 Success Response (2)
+        ..00 000. 000. 1000 = Message Method: 0x0008 CreatePermission (0x008)
+        ..0. .... .... .... = Message Method Assignment: IETF Review (0x0)
+    Message Length: 64
+    Message Cookie: 2112a442
+    Message Transaction ID: 304341416f354a6d2f583976
+    [STUN Network Version: RFC-5389/8489 (3)]
+    Attributes
+        SOFTWARE
+            Attribute Type: SOFTWARE
+            Attribute Length: 26
+            Software: Coturn-4.5.1.1 'dan Eider'
+            Padding: 2
+        MESSAGE-INTEGRITY
+            Attribute Type: MESSAGE-INTEGRITY
+            Attribute Length: 20
+            HMAC-SHA1: 88ab6389a6ef174f3ecbe513e1f303db0e1270eb
+        FINGERPRINT
+            Attribute Type: FINGERPRINT
+            Attribute Length: 4
+            CRC-32: 0x8127a4ff
+
+No.     Time           Source                Destination           Protocol Length Info
+   3477 176.072622     192.168.0.18          172.93.178.36         STUN     178    Send Indication XOR-PEER-ADDRESS: 75.188.99.179:49697
+
+Frame 3477: 178 bytes on wire (1424 bits), 178 bytes captured (1424 bits) on interface \Device\NPF_{0AC9580C-5BC5-460A-8735-9780ADDE3C58}, id 0
+Ethernet II, Src: Chongqin_07:c0:a1 (5c:ba:ef:07:c0:a1), Dst: HonHaiPr_a2:47:8b (d8:0f:99:a2:47:8b)
+Internet Protocol Version 4, Src: 192.168.0.18, Dst: 172.93.178.36
+User Datagram Protocol, Src Port: 64818, Dst Port: 3478
+    Source Port: 64818
+    Destination Port: 3478
+    Length: 144
+    Checksum: 0x54aa [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 105]
+    [Timestamps]
+    UDP payload (136 bytes)
+Session Traversal Utilities for NAT
+    Message Type: 0x0016 (Send Indication)
+        .... ...0 ...1 .... = Message Class: 0x01 Indication (1)
+        ..00 000. 000. 0110 = Message Method: 0x0006 Send (0x006)
+        ..0. .... .... .... = Message Method Assignment: IETF Review (0x0)
+    Message Length: 116
+    Message Cookie: 2112a442
+    Message Transaction ID: 334b6746334e675830316973
+    [STUN Network Version: RFC-5389/8489 (3)]
+    Attributes
+        XOR-PEER-ADDRESS: 75.188.99.179:49697
+            Attribute Type: XOR-PEER-ADDRESS
+            Attribute Length: 8
+            Reserved: 00
+            Protocol Family: IPv4 (0x01)
+            Port (XOR-d): e333
+            [Port: 49697]
+            IP (XOR-d): 6aaec7f1
+            [IP: 75.188.99.179]
+        DATA
+            Attribute Type: DATA
+            Attribute Length: 100
+            Value: 000100502112a442372f6d5a516d5949364a6447000600096c504b6e3a4b4c586d000000…
+            Data (100 bytes)
+
+0000  00 01 00 50 21 12 a4 42 37 2f 6d 5a 51 6d 59 49   ...P!..B7/mZQmYI
+0010  36 4a 64 47 00 06 00 09 6c 50 4b 6e 3a 4b 4c 58   6JdG....lPKn:KLX
+0020  6d 00 00 00 c0 57 00 04 00 01 00 0a 80 2a 00 08   m....W.......*..
+0030  7e 82 14 65 7f 1f bf 83 00 25 00 00 00 24 00 04   ~..e.....%...$..
+0040  6e 7a 1f ff 00 08 00 14 57 1b 9f b6 31 da 4d 02   nz......W...1.M.
+0050  b7 44 ae bc 51 7d a4 a0 b3 0a aa 30 80 28 00 04   .D..Q}.....0.(..
+0060  ff 68 2a 6e                                       .h*n
+                Data: 000100502112a442372f6d5a516d5949364a6447000600096c504b6e3a4b4c586d000000…
+                [Length: 100]
+
+No.     Time           Source                Destination           Protocol Length Info
+   3609 176.472217     172.93.178.36         192.168.0.18          STUN     182    Data Indication XOR-PEER-ADDRESS: 185.161.70.254:63667
+
+Frame 3609: 182 bytes on wire (1456 bits), 182 bytes captured (1456 bits) on interface \Device\NPF_{0AC9580C-5BC5-460A-8735-9780ADDE3C58}, id 0
+Ethernet II, Src: HonHaiPr_a2:47:8b (d8:0f:99:a2:47:8b), Dst: Chongqin_07:c0:a1 (5c:ba:ef:07:c0:a1)
+Internet Protocol Version 4, Src: 172.93.178.36, Dst: 192.168.0.18
+User Datagram Protocol, Src Port: 3478, Dst Port: 64818
+    Source Port: 3478
+    Destination Port: 64818
+    Length: 148
+    Checksum: 0x5e99 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 105]
+    [Timestamps]
+    UDP payload (140 bytes)
+Session Traversal Utilities for NAT
+    Message Type: 0x0017 (Data Indication)
+        .... ...0 ...1 .... = Message Class: 0x01 Indication (1)
+        ..00 000. 000. 0111 = Message Method: 0x0007 Data (0x007)
+        ..0. .... .... .... = Message Method Assignment: IETF Review (0x0)
+    Message Length: 120
+    Message Cookie: 2112a442
+    Message Transaction ID: 8afadcf24a0c330ba1d1996d
+    [STUN Network Version: RFC-5389/8489 (3)]
+    Attributes
+        DATA
+            Attribute Type: DATA
+            Attribute Length: 64
+            Value: 0101002c2112a44272396a70316352454b545243002000080001f9fe8d4f166600080014…
+            Data (64 bytes)
+
+0000  01 01 00 2c 21 12 a4 42 72 39 6a 70 31 63 52 45   ...,!..Br9jp1cRE
+0010  4b 54 52 43 00 20 00 08 00 01 f9 fe 8d 4f 16 66   KTRC. .......O.f
+0020  00 08 00 14 74 13 51 0b 38 00 53 2f 00 bd 93 70   ....t.Q.8.S/...p
+0030  79 8f 3f 11 6c 51 89 63 80 28 00 04 3a 0e c0 2d   y.?.lQ.c.(..:..-
+                Data: 0101002c2112a44272396a70316352454b545243002000080001f9fe8d4f166600080014…
+                [Length: 64]
+        XOR-PEER-ADDRESS: 185.161.70.254:63667
+            Attribute Type: XOR-PEER-ADDRESS
+            Attribute Length: 8
+            Reserved: 00
+            Protocol Family: IPv4 (0x01)
+            Port (XOR-d): d9a1
+            [Port: 63667]
+            IP (XOR-d): 98b3e2bc
+            [IP: 185.161.70.254]
+        SOFTWARE
+            Attribute Type: SOFTWARE
+            Attribute Length: 26
+            Software: Coturn-4.5.1.1 'dan Eider'
+            Padding: 2
+        FINGERPRINT
+            Attribute Type: FINGERPRINT
+            Attribute Length: 4
+            CRC-32: 0xaa532f65
+
+No.     Time           Source                Destination           Protocol Length Info
+   3902 177.493472     192.168.0.18          172.93.178.36         STUN     150    Refresh Request lifetime: 0 user: obsninja realm: turn-usc1.obs.ninja with nonce
+
+Frame 3902: 150 bytes on wire (1200 bits), 150 bytes captured (1200 bits) on interface \Device\NPF_{0AC9580C-5BC5-460A-8735-9780ADDE3C58}, id 0
+Ethernet II, Src: Chongqin_07:c0:a1 (5c:ba:ef:07:c0:a1), Dst: HonHaiPr_a2:47:8b (d8:0f:99:a2:47:8b)
+Internet Protocol Version 4, Src: 192.168.0.18, Dst: 172.93.178.36
+User Datagram Protocol, Src Port: 49254, Dst Port: 3478
+    Source Port: 49254
+    Destination Port: 3478
+    Length: 116
+    Checksum: 0x202f [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 129]
+    [Timestamps]
+    UDP payload (108 bytes)
+Session Traversal Utilities for NAT
+    [Response In: 3915]
+    Message Type: 0x0004 (Refresh Request)
+        .... ...0 ...0 .... = Message Class: 0x00 Request (0)
+        ..00 000. 000. 0100 = Message Method: 0x0004 Refresh (0x004)
+        ..0. .... .... .... = Message Method Assignment: IETF Review (0x0)
+    Message Length: 88
+    Message Cookie: 2112a442
+    Message Transaction ID: 536d6c517863534655547948
+    [STUN Network Version: RFC-5389/8489 (3)]
+    Attributes
+        LIFETIME 0
+            Attribute Type: LIFETIME
+            Attribute Length: 4
+            Lifetime: 0
+        USERNAME: obsninja
+            Attribute Type: USERNAME
+            Attribute Length: 8
+            Username: obsninja
+        REALM: turn-usc1.obs.ninja
+            Attribute Type: REALM
+            Attribute Length: 19
+            Realm: turn-usc1.obs.ninja
+            Padding: 1
+        NONCE: e8d41a67cf345208
+            Attribute Type: NONCE
+            Attribute Length: 16
+            Nonce: e8d41a67cf345208
+        MESSAGE-INTEGRITY
+            Attribute Type: MESSAGE-INTEGRITY
+            Attribute Length: 20
+            HMAC-SHA1: b3ab7a13c6c420bac6ca8854d7a0a453941e9ff5
+
+No.     Time           Source                Destination           Protocol Length Info
+   3915 177.544282     172.93.178.36         192.168.0.18          STUN     134    Refresh Success Response lifetime: 0
+
+Frame 3915: 134 bytes on wire (1072 bits), 134 bytes captured (1072 bits) on interface \Device\NPF_{0AC9580C-5BC5-460A-8735-9780ADDE3C58}, id 0
+Ethernet II, Src: HonHaiPr_a2:47:8b (d8:0f:99:a2:47:8b), Dst: Chongqin_07:c0:a1 (5c:ba:ef:07:c0:a1)
+Internet Protocol Version 4, Src: 172.93.178.36, Dst: 192.168.0.18
+User Datagram Protocol, Src Port: 3478, Dst Port: 49254
+    Source Port: 3478
+    Destination Port: 49254
+    Length: 100
+    Checksum: 0xe317 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 129]
+    [Timestamps]
+    UDP payload (92 bytes)
+Session Traversal Utilities for NAT
+    [Request In: 3902]
+    [Time: 0.050810000 seconds]
+    Message Type: 0x0104 (Refresh Success Response)
+        .... ...1 ...0 .... = Message Class: 0x10 Success Response (2)
+        ..00 000. 000. 0100 = Message Method: 0x0004 Refresh (0x004)
+        ..0. .... .... .... = Message Method Assignment: IETF Review (0x0)
+    Message Length: 72
+    Message Cookie: 2112a442
+    Message Transaction ID: 536d6c517863534655547948
+    [STUN Network Version: RFC-5389/8489 (3)]
+    Attributes
+        LIFETIME 0
+            Attribute Type: LIFETIME
+            Attribute Length: 4
+            Lifetime: 0
+        SOFTWARE
+            Attribute Type: SOFTWARE
+            Attribute Length: 26
+            Software: Coturn-4.5.1.1 'dan Eider'
+            Padding: 2
+        MESSAGE-INTEGRITY
+            Attribute Type: MESSAGE-INTEGRITY
+            Attribute Length: 20
+            HMAC-SHA1: 9ccb98e30a16bb58dc69f1faee220cab054897c9
+        FINGERPRINT
+            Attribute Type: FINGERPRINT
+            Attribute Length: 4
+            CRC-32: 0x72ec488c
